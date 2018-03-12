@@ -1,0 +1,22 @@
+/* Trivia Game - style.css */
+
+body {
+    background-image: url("../images/intro2.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+}
+
+.container {
+    text-align: center;
+    margin-top: 825px;
+}
+
+a {
+    text-decoration: none;
+    color: #f1df7e;
+    font-family: 'Marcellus', serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px;
+  
+}

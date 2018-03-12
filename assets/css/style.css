@@ -1,0 +1,27 @@
+/* Trivia Game - style.css */
+form {
+    margin-left: 100px;
+}
+
+#button {
+    margin-left: 150px;
+    padding: 10px;
+}
+
+input {
+    margin-left: 50px;
+}
+
+body {
+    color: white;
+    background-image: url("../images/ironthrone.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    opacity: 0.5;
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+    
+}
+
+
+
