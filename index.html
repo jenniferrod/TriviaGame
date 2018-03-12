@@ -1,101 +1,18 @@
-<!-- Trivia Game index.html -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/start.css">
     <title>GoT Trivia</title>
 </head>
-
 <body>
-    <!-- audio -->
-    <audio autoplay src="assets/intro.m4a"></audio>
-    <div class="container">
-       
-        <h1>When you play the game of thrones, you win or you die</h1>
-        
-        <form id="quiz" name ="quiz">
-        
-        <div id="timer"></div>
-        <div class="content">
-            <p>Name the capital city of Westeros' Seven Kingdoms and the seat of the Iron Throne?</p>
-            <input type="radio" id="mc" name="q1" value="Mereen"> Mereen <br>   
-            <input type="radio" id="mc" name="q1" value="Free Cities"> Free Cities <br> 
-            <input type="radio" id="mc" name="q1" value="Astapor"> Astapor <br> 
-            <input type="radio" id="mc" name="q1" value="King's Landing"> King's Landing <br>  
 
-            <p>Jaime Lanister is known as the King Slayer. Which king did he kill?</p>
-            <input type="radio" id="mc" name="q2" value="Robert Baratheon"> Robert Baratheon <br>   
-            <input type="radio" id="mc" name="q2" value="Balon Greyjoy"> Balon Greyjoy <br> 
-            <input type="radio" id="mc" name="q2" value="Aerys Taragrayen"> Aerys Taragrayen <br> 
-            <input type="radio" id="mc" name="q2" value="Robb Stark"> Robb Stark <br>
-
-            <p>In which battle did Jon Snow and Sansa Stark retake Winterfell from Lord Ramsey Bolton?</p>
-            <input type="radio" id="mc" name="q3" value="Battle of the Bastards"> Battle of the Bastards <br>   
-            <input type="radio" id="mc" name="q3" value="Battle of the Blackwater"> Battle of the Blackwater <br> 
-            <input type="radio" id="mc" name="q3" value="The Massacre at Hardhome"> The Massacre at Hardhome <br> 
-            <input type="radio" id="mc" name="q3" value="Battle of Castle Black"> Battle of Castle Black<br>
-
-            <p>What is the name of Rickon Stark's direwolf?</p>
-            <input type="radio" id="mc" name="q4" value="Ghost"> Ghost <br>   
-            <input type="radio" id="mc" name="q4" value="Nymeria"> Nymeria <br> 
-            <input type="radio" id="mc" name="q4" value="Shaggy Dog"> Shaggy Dog <br> 
-            <input type="radio" id="mc" name="q4" value="Grey Wind"> Grey Wind <br>
-
-            <p>All men must _____.</p>
-            <input type="radio" id="mc" name="q5" value="Fight"> Fight <br>   
-            <input type="radio" id="mc" name="q5" value="Die"> Die <br> 
-            <input type="radio" id="mc" name="q5" value="Love"> Love <br> 
-            <input type="radio" id="mc" name="q5" value="Live"> Live <br>
-
-            <p>In which city does Arya Stark train to become a Faceless Man?</p>
-            <input type="radio" id="mc" name="q6" value="Pentos">Pentos  <br>   
-            <input type="radio" id="mc" name="q6" value="Mereen">Mereen  <br> 
-            <input type="radio" id="mc" name="q6" value="Braavos">Braavos  <br> 
-            <input type="radio" id="mc" name="q6" value="Astapor">Astapor  <br>
-            
-            <p>Who was Margaery Tyrell's first husband?</p>
-            <input type="radio" id="mc" name="q7" value="Joffrey Baratheon">Joffrey Baratheon  <br>   
-            <input type="radio" id="mc" name="q7" value="Renly Baratheon">Renly Baratheon  <br> 
-            <input type="radio" id="mc" name="q7" value="Stannis Baratheon">Stannis Baratheon  <br> 
-            <input type="radio" id="mc" name="q7" value="Tommen Baratheon">Tommen Baratheon  <br>
-
-            <p>Who delivered the fatal blow to King in the North, Robb Stark?</p>
-            <input type="radio" id="mc" name="q8" value="Roose Bolton">Roose Bolton  <br>   
-            <input type="radio" id="mc" name="q8" value="Walder Frey">Walder Frey  <br> 
-            <input type="radio" id="mc" name="q8" value="Ramsay Bolton">Ramsay Bolton  <br> 
-            <input type="radio" id="mc" name="q8" value="Alliser Thorne">Alliser Thorne  <br>
-            
-            <p>Who was responsible for the poisoning of King Joffrey Baratheon?</p>
-            <input type="radio" id="mc" name="q9" value="Tyrion Lannister">Tyrion Lannister  <br>   
-            <input type="radio" id="mc" name="q9" value="Varys">Varys  <br> 
-            <input type="radio" id="mc" name="q9" value="Olenna Tyrell">Olenna Tyrell <br> 
-            <input type="radio" id="mc" name="q9" value="Sansa Stark">Sansa Stark  <br>
-
-            <p>Which of the following god(s) are worshiped by the High Sparrow and his followers?</p>
-            <input type="radio" id="mc" name="q10" value="The Lord of the Light">The Lord of the Light  <br>   
-            <input type="radio" id="mc" name="q10" value="The Old Gods">The Old Gods  <br> 
-            <input type="radio" id="mc" name="q10" value="The New Gods">The New Gods  <br>
-            <input type="radio" id="mc" name="q10" value="The Faith of the Seven">The Faith of the Seven <br> 
-            </div>
-        </form>
-        <br>
-        <input type="button" id="button" value="Submit" onclick = "check();">
-
-    </div>
+<div class="container">
+    <a class="button" href="trivia.html">START</a>
+</div>
     
-    <div id="message"></div>
-    <div id="score"></div>
-    
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-    <script src="assets/javascript/app.js"></script>
 </body>
-
 </html>
